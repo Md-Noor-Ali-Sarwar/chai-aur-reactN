@@ -1,0 +1,34 @@
+L-3
+
+agar tum khudse ek tag name function ke zariye bana kar import export kar rahe ho to ye yad rakhna ki aapko tag name ke 
+first letter ko pehle Uppercase me rakhna hoga nahi to wo error deta hai unrecognize karke 
+import and export karte waqt usko capitalize karna hoga file ka nam to same rehne wala hai function ka nam capital se 
+strat kar lo apna varible dusre file me wo capitalize kar lo export and import karte waqt bhi yahi kar lo
+
+agar tum App.jsx me ek se zyada yani <chai/>   wali html tag se zyada tag return karogi to firse poore browser and whole 
+terminal par error aayega. Agar multiple html tag ko return karna bhi chahte ho app.jsx me aap ek div le sakte ho 
+aur uske ander kayi sare html element return kar sakte ho 
+
+"""bad me ye deside huwa ki <div></div> ke ander likhne ki bajaye khali container se bhi kam ho jayega  <> multiple cheese
+for returning   </> is khali container ko java script me fragment bola gya   ye abhi tak jo cheese thi wo vite ke through
+
+
+// ab ham yahi cheese create react app se bhi karke dekhne wale hai 
+// mera jo 01basicreact wala folder hai wo create react app wala hi hai   
+
+ye yad rakhna html ke mainly tags me jab closing tag use hota hai tab / word of tag ke pehle hota hai wahi par 
+jab ye kisi file ko import karke lane wali bat hoti hai tab word of tag ke bad use hota hai
+
+
+similarly in 01basicreact means react(create react app) wale me bhi aapko function ka nam capitalize karke likhna hoga export bhi capitalize
+and aapko varible name and tag name bhi capitalize karke karna hoga 
+
+""""""""""""""""    best practices """"""""""""""""""""""""""""""""""""""""""""""""""
+ye jo function aap export kar rahe hai yahi ek component hai, achhi practice ye hai ki aap jo bhi function bana kar export 
+karne wale ho usko capitalize hi rakho even aap file ka nam bhi capitalize rakho except index.html ke
+aap import from ke bad likhi jani wali file ke nam me uska type like .js ye likh bhi sakte ho nahi bhi agar nahi likha aur 
+fault lag raha hai to setting se window ko reload kar lena fir theek ho jayega cheese
+                        aur sir ne js file of chai.js ko chai.jsx bana diya hai par fir bhi ye bhi pehle jaisa hi kam kar raha
+koi darne ki bat nahi hai 
+ek convension hai ki agar kisi file se html export ho raha hai to us file ka nam jsx rahkhna pasand karte hai as compare 
+to js.       agar waha par html ka koi code nahi hai sirf javascript ka code hai to ham js likhna prefer karte hai
